@@ -33,7 +33,7 @@ img {
 }
 
 .page-nav {
-    margin-bottom: 70px;
+    /*margin-bottom: 70px;*/
     padding: 40px 0;
 }
 
@@ -71,9 +71,13 @@ img {
     text-transform: uppercase;
 }
 
+.site-nav-item:hover {
+    color: #1abc9c;
+}
+
 .site-nav {
     float: right;
-    width: 473px;
+    /*width: 473px;*/
     color: #0f0101;
     margin: 0;
     padding: 0;
