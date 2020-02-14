@@ -91,6 +91,10 @@ img {
 
 /* Slider */
 
+.main {
+    width: 100%;
+}
+
 .wrapper-btn {
     position: absolute;
     top: 50%;
@@ -255,7 +259,7 @@ h2::after {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 32px;
-    font-weight: 900px;
+    font-weight: 900;
     color: white;
     text-transform: uppercase;
 }
@@ -266,6 +270,7 @@ h2::after {
 
 .new-list-item:hover .new-list-wrapper {
     background-color: #1abc9c;
+    cursor: pointer;
 }
 
 .new-list-item {
@@ -336,6 +341,7 @@ h2::after {
 
 .social-list-link:hover {
     background-color: #1abc9c;
+    cursor: pointer;
 }
 
 .add {
@@ -346,9 +352,9 @@ h2::after {
     background-image: url(../img/icon/add.png);
 }
 
-.social-list__item:not(nth-last-child(-n + 2)) {
+/* .social-list__item:not(nth-last-child(-n + 2)) {
     margin-right: 8px;
-}
+} */
 
 .social-list__item:nth-child(-n + 2) {
     margin-right: 8px;
