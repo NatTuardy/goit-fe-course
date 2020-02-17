@@ -130,7 +130,7 @@ img {
 .section-name::after {
   display: block;
   width: 60px;
-  height: 2px;
+  height: 3px;
   background-color: #f38181;
   content: "";
   margin: 0 auto;
@@ -172,8 +172,18 @@ img {
 }
 
 .photo {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #333333;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
 }
 
 .prof-item::before {
@@ -285,7 +295,6 @@ img {
 
 .social-link:hover {
   background-color: var(--main-bg-color);
-  /* background-color: #95e1d3; */
 }
 
 .face {
@@ -335,6 +344,7 @@ img {
 
 .info-link {
   color: #f38181;
+  text-decoration: none;
 }
 
 .input-area::placeholder {
