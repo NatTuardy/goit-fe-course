@@ -29,85 +29,85 @@ img {
 
 /* montserrat-regular - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'),
-    url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+      url("../fonts/montserrat-v14-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* montserrat-italic - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: italic;
   font-weight: 400;
-  src: local('Montserrat Italic'), local('Montserrat-Italic'),
-    url('../fonts/montserrat-v14-latin-italic.woff2') format('woff2'),
+  src: local("Montserrat Italic"), local("Montserrat-Italic"),
+    url("../fonts/montserrat-v14-latin-italic.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/montserrat-v14-latin-italic.woff') format('woff');
+      url("../fonts/montserrat-v14-latin-italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* montserrat-700 - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: local('Montserrat Bold'), local('Montserrat-Bold'),
-    url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/montserrat-v14-latin-700.woff') format('woff');
+      url("../fonts/montserrat-v14-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* roboto-300 - latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'),
-    url('../fonts/roboto-v20-latin-300.woff2') format('woff2'),
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/roboto-v20-latin-300.woff') format('woff');
+      url("../fonts/roboto-v20-latin-300.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* roboto-regular - latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'),
-    url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/roboto-v20-latin-regular.woff') format('woff');
+      url("../fonts/roboto-v20-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* roboto-900 - latin */
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: local('Roboto Black'), local('Roboto-Black'),
-    url('../fonts/roboto-v20-latin-900.woff2') format('woff2'),
+  src: local("Roboto Black"), local("Roboto-Black"),
+    url("../fonts/roboto-v20-latin-900.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/roboto-v20-latin-900.woff') format('woff');
+      url("../fonts/roboto-v20-latin-900.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* kaushan-script-regular - latin */
 @font-face {
-  font-family: 'Kaushan Script';
+  font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
-  src: local('Kaushan Script'), local('KaushanScript-Regular'),
-    url('../fonts/kaushan-script-v8-latin-regular.woff2') format('woff2'),
+  src: local("Kaushan Script"), local("KaushanScript-Regular"),
+    url("../fonts/kaushan-script-v8-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('../fonts/kaushan-script-v8-latin-regular.woff') format('woff');
+      url("../fonts/kaushan-script-v8-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -127,11 +127,25 @@ img {
 }
 
 .page-header {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(251, 227, 137, 0.7)), to(rgba(243, 138, 129, 0.7))),
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(251, 227, 137, 0.7)),
+      to(rgba(243, 138, 129, 0.7))
+    ),
     url(../img/Layer15.png);
-  background: -o-linear-gradient(bottom, rgba(251, 227, 137, 0.7) 0%, rgba(243, 138, 129, 0.7) 100%),
+  background: -o-linear-gradient(
+      bottom,
+      rgba(251, 227, 137, 0.7) 0%,
+      rgba(243, 138, 129, 0.7) 100%
+    ),
     url(../img/Layer15.png);
-  background: linear-gradient(0deg, rgba(251, 227, 137, 0.7) 0%, rgba(243, 138, 129, 0.7) 100%),
+  background: linear-gradient(
+      0deg,
+      rgba(251, 227, 137, 0.7) 0%,
+      rgba(243, 138, 129, 0.7) 100%
+    ),
     url(../img/Layer15.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,15 +156,30 @@ img {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi) {
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
   .page-header {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(251, 227, 137, 0.7)), to(rgba(243, 138, 129, 0.7))),
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        from(rgba(251, 227, 137, 0.7)),
+        to(rgba(243, 138, 129, 0.7))
+      ),
       url(../img/Layer15@2x.png);
-    background: -o-linear-gradient(bottom, rgba(251, 227, 137, 0.7) 0%, rgba(243, 138, 129, 0.7) 100%),
+    background: -o-linear-gradient(
+        bottom,
+        rgba(251, 227, 137, 0.7) 0%,
+        rgba(243, 138, 129, 0.7) 100%
+      ),
       url(../img/Layer15@2x.png);
-    background: linear-gradient(0deg, rgba(251, 227, 137, 0.7) 0%, rgba(243, 138, 129, 0.7) 100%),
+    background: linear-gradient(
+        0deg,
+        rgba(251, 227, 137, 0.7) 0%,
+        rgba(243, 138, 129, 0.7) 100%
+      ),
       url(../img/Layer15@2x.png);
+    background-size: 1920px 1000px;
   }
 }
 
@@ -192,9 +221,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  align-items: baseline;
   width: 622px;
   height: 30px;
-  text-align: center;
 }
 
 .site-nav {
@@ -249,7 +278,7 @@ img {
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: flex-end;
   list-style: none;
   width: 100px;
 }
@@ -276,12 +305,12 @@ img {
 }
 
 .case-search__icon:hover {
-  fill: #fce38a
+  fill: #fce38a;
 }
 
 .page-header__description {
   margin-bottom: 52px;
-  font-family: 'Kaushan Script', 'Arial', sans-serif;
+  font-family: "Kaushan Script", "Arial", sans-serif;
   font-size: 72px;
   line-height: 86px;
   text-align: center;
@@ -289,10 +318,10 @@ img {
 
 .page-header__title {
   margin: 0 auto 120px;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", serif;
   font-size: 150px;
   line-height: 150px;
-  letter-spacing: -0.18px;
+  letter-spacing: 10px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -306,7 +335,7 @@ img {
   border: 2px solid rgb(255, 255, 255);
   border-radius: 2px;
   background-color: transparent;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -366,8 +395,6 @@ img {
   margin-top: 40px;
 }
 
-
-
 .prof-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -405,19 +432,19 @@ img {
 }
 
 .prof-list__item_photography::before {
-  background-image: url(../img/ALARM\ \(2\).svg);
+  background-image: url(../img/ALARM\\(2\).svg);
 }
 
 .prof-list__item_web::before {
-  background-image: url(../img/LINE\ GRAPH.svg);
+  background-image: url(../img/LINE\GRAPH.svg);
 }
 
 .prof-list__item_creativity::before {
-  background-image: url(../img/COMPUTER\ _\ OK.svg);
+  background-image: url(../img/COMPUTER\_\OK.svg);
 }
 
 .prof-list__item_ceo::before {
-  background-image: url(../img/BOOK\ 2.svg);
+  background-image: url(../img/book\2svg);
 }
 
 .prof-list__item_css::before {
@@ -460,8 +487,6 @@ img {
   font-weight: 400;
 }
 
-
-
 .cards-wrapper {
   padding-bottom: 80px;
 }
@@ -497,16 +522,23 @@ img {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: -webkit-gradient(linear,
-      left bottom, left top,
-      from(rgba(240, 226, 144, 0.9)),
-      to(rgba(233, 138, 137, 0.9)));
-  background-image: -o-linear-gradient(bottom,
-      rgba(240, 226, 144, 0.9),
-      rgba(233, 138, 137, 0.9));
-  background-image: linear-gradient(0deg,
-      rgba(240, 226, 144, 0.9),
-      rgba(233, 138, 137, 0.9));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(240, 226, 144, 0.9)),
+    to(rgba(233, 138, 137, 0.9))
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    rgba(240, 226, 144, 0.9),
+    rgba(233, 138, 137, 0.9)
+  );
+  background-image: linear-gradient(
+    0deg,
+    rgba(240, 226, 144, 0.9),
+    rgba(233, 138, 137, 0.9)
+  );
   top: 0;
   left: 0;
   opacity: 0;
@@ -577,8 +609,6 @@ img {
   background-color: #f38181;
 }
 
-
-
 .social-list__icon {
   width: 26px;
   height: 26px;
@@ -588,7 +618,6 @@ img {
 .social-list__item:hover .social-list__icon {
   fill: #fff;
 }
-
 
 .card-list__name-wrapper {
   width: 380px;
@@ -610,7 +639,6 @@ img {
   font-style: italic;
   text-align: center;
 }
-
 
 /* Footer */
 .footer-wrapper {
